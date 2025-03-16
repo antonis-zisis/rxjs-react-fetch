@@ -1,8 +1,9 @@
 {
   "name": "rxjs-react-search",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "description": "Search with React and RxJS",
+  "author": "Antonis Zisis",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -11,10 +12,12 @@
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "rxjs": "^7.8.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
+    "@tailwindcss/vite": "^4.0.14",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
@@ -22,8 +25,12 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.14",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
-  }
+  },
+  "packageManager": "pnpm@10.6.2"
 }

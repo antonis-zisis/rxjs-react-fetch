@@ -4,6 +4,7 @@
   "type": "module",
   "description": "Search with React and RxJS",
   "author": "Antonis Zisis",
+  "license": "ISC",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
